@@ -2,10 +2,12 @@ body {
     max-width: 500px;
     min-width: 300px;
     margin: 30px auto;
+    text-align: center;
+    font-family: sans-serif;;
 }
 
 div {
-    background-color: mediumslateblue;
+    background-color: rgba(123, 104, 238, 0.8);
     opacity: 0.8;
     padding: 10px;
     border-radius: 15px;
@@ -14,11 +16,7 @@ div {
 section {
     border-style: solid;
     border-radius: 15px;
-}
-
-h1, h2, p {
-    text-align: center;
-    font-family: sans-serif;
+    margin-bottom: 5px;
 }
 
 .emoticon {
@@ -26,4 +24,8 @@ h1, h2, p {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 15px;
+}
+
+ol {
+    text-align: left;
 }
