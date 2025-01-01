@@ -38,18 +38,16 @@ section {
     margin: 5px 5px;
     width: 300px;
     min-height: 230px;
+    max-height: fit-content;
     padding: 3px 10px;
     background-color: #F3F7EC;
-}
-
-.main-section {
-    width: 300px;
 }
 
 .html-section {
     width: 45%;
     min-width: 300px;
     max-width: 90%;
+    height: fit-content;
 }
 
 .emoticon {

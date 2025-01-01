@@ -10,19 +10,25 @@
         <header>
             <h2>My knowledge on HTML</h2>
             <p>This is everything I know about HTML</p>
-            <p></p>
         </header>
         <div>
-            <section class="html-section">
+            <section class="html-section" id="html-whatis">
+                <h3>What is HTML?</h3>
+                <p>HTML stands for HyperText Markup Language. It is used to create the structure and content of a website.</p>
+                <p>Compared to other programming languages, HTML is very simple and easy to learn.</p>
+                <p>It is used along side CSS, which is used to style the HTML elements.</p>
+                <p>HTML uses tags to mark up the content of a webpage. Most elements have opening and closing tags, however, some elements do not. These are called Void Elements.</p>
+            </section>
+            <section class="html-section" id="html-structure">
                 <h3>HTML Structure</h3>
                 <p>The basic structure of a HTML page starts with the declaration of the document type and version of HTML. This is done with the &lt;!DOCTYPE&gt; tag with the value of "html" within it. This will declare the document to be a HTML5 document.</p>
-                <p>Following the declaration, comes the &lt;html&gt; tag, which is the root element of the HTML document. This tag contains the &lt;head&gt; and &lt;body&gt; tags.</p>
-                <p>The &lt;head&gt; tag contains the metadata of the document, such as the title of the document, the description of the document, and the keywords of the document.</p>
+                <p>Following the declaration, comes the &lt;html&gt; tag, which is the root element of the HTML document. This tag contains everything else in the document.</p>
+                <p>The &lt;head&gt; tag contains the metadata of the document, such as the title of the document, the description of the document.</p>
                 <p>The &lt;title&gt; tag contains the name of the document, and is displayed in the browser's tab.</p>
-                <p>The &lt;meta&gt; tag contains the metadata of the document, such as the charset, the viewport, and the description of the document.</p>
-                <p>The &lt;body&gt; tag contains the content of the document, such as the text, images, and other elements.</p>
+                <p>The &lt;meta&gt; tag contains the metadata of the document, such as the encoding of the document, the viewport, and the description of the document.</p>
+                <p>The &lt;body&gt; tag contains the content of the document, such as the text, images, and other elements. This is what will generally appear on the webpage itself.</p>
                 <hr>
-                <p>An example of a basic HTML document can be seen below:</p>
+                <p>This is an example of the basic structure of a HTML page:</p>
                 <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -42,5 +48,6 @@
     </body>
     <footer>
         <object data="footer.html" type="text/html"></object>
+        <p>Created 01.01.2025</p>
     </footer>
 </html>
