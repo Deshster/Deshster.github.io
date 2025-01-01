@@ -1,10 +1,18 @@
-body {
+body, footer {
     min-width: 300px;
-    margin: 30px auto;
     text-align: center;
     font-family: sans-serif;
     background-color: #006989;
-    color: #E88D67;
+    color: #F9A97A;
+    font-size: 18px;
+}
+
+body {
+    margin: 30px auto;
+}
+
+footer {
+    margin: 10px auto;
 }
 
 header {
@@ -13,6 +21,7 @@ header {
 
 div {
     background-color: #006989;
+    color: #E88D67;
     padding: 10px 15px;
     border-radius: 15px;
     display: flex;
@@ -54,8 +63,22 @@ ol, ul, pre {
     text-align: left;
 }
 
-a:hover {
+.on-blue {
+    color: #00CED1;
+}
+
+.on-blue:hover {
     cursor: pointer;
+    color: #FFD366;
+}
+
+.on-white {
+    color: #33A89E;
+}
+
+.on-white:hover {
+    cursor: pointer;
+    color: #FF6F5E;
 }
 
 pre {
