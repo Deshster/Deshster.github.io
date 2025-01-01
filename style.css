@@ -11,6 +11,7 @@ body {
 header {
     width: 100%;
 }
+
 div {
     background-color: #006989;
     padding: 10px 15px;
@@ -28,9 +29,17 @@ section {
     border-color: #E88D67;
     margin: 5px 5px;
     width: 300px;
-    padding:  3px 10px;
+    min-height: 230px;
+    padding: 3px 10px;
     background-color: #F3F7EC;
+}
 
+.main-section {
+    width: 300px;
+}
+
+.html-section {
+    width: 45%;
 }
 
 .emoticon {
@@ -40,6 +49,17 @@ section {
     margin: 10px 15px;
 }
 
-ol {
+ol, ul, pre {
     text-align: left;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+pre {
+    max-width: 100%;
+    overflow: auto;
+    white-space: pre-wrap;
+    color: #006989;
 }
